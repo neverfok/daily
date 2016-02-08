@@ -1,11 +1,23 @@
+* Next vim keybindings
+  * insert at the end of the line
+  * insert at the beginning of the line
+  * repeat last insert mode action
+
 * Add to itinerary:
   * Individualized Nightmare
+* Synseer
+  * Interface:
+    * Reset correct / incorrect on each entry?
+  * Syntax
+    * Hash literals `{"a" => 1, b: 2, :c => 3, 4 => 5}`
+    * As args `a b: 1`
 * Material
   * Choose OO problems
   * Object Model games
   * Something fun:
     * $ curl 'http://api1.chicagopolice.org/clearpath/api/1.0/crimes/major' | jq .
 * Organization
+  * Add links to each day back to that week in the curriculum
   * Move all descriptions out of plans and into their own files
   * Link all lessons to their plans
   * Make sure all links work in the markdown file
@@ -14,6 +26,8 @@
 
 Later
 
+* Game called "predict the error"?
+* Game called "fix the error"?
 * File system waypoints
 * Build a programming language?
 * Make sure all lessons are in the curriculum
