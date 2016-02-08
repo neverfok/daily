@@ -1,23 +1,10 @@
-Now
-* Synseer
-* People
-  * Guy with the jupyter info
-  * Groupon
 * Add to itinerary:
-  * Assignment choose 5 more methods to add to their cheatsheets
   * Individualized Nightmare
 * Material
-  * Add vim waypoint
-  * Find a way to generate this error
   * Choose OO problems
   * Object Model games
   * Something fun:
     * $ curl 'http://api1.chicagopolice.org/clearpath/api/1.0/crimes/major' | jq .
-* Typing:
-  * Find a good one for those under 30 WPM
-  * Record typing at the beginning of the week
-  * If over 80 wpm, they are fine
-  * Otherwise, they need to improve by 3 wpm per week
 * Organization
   * Move all descriptions out of plans and into their own files
   * Link all lessons to their plans
@@ -26,6 +13,7 @@ Now
   * Add a place to track student info
 
 Later
+
 * File system waypoints
 * Build a programming language?
 * Make sure all lessons are in the curriculum
