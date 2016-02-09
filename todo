@@ -1,8 +1,14 @@
+* Move the rest of this somewhere
+  Topics: Namespacing, multiple files in Ruby (load path),
+  naming conventions across files and classes
 * Next vim keybindings
-  * insert at the end of the line
-  * insert at the beginning of the line
-  * repeat last insert mode action
-
+  * w/W
+  * b/B
+  * f
+  * t
+  * vertical editing
+  * visual highlight mode
+  * add a theme
 * Add to itinerary:
   * Individualized Nightmare
 * Synseer
@@ -26,6 +32,14 @@
 
 Later
 
+* Additional unix programs:
+  * env
+  * curl
+  * [pwd](https://github.com/turingschool/waypoints/blob/master/waypoints/pwd.md),
+    including the entire process of pretending to not know what your'e looking for in pry
+    (mimic the process of trying to solve it from no knowledge),
+  * which
+  * ?? minutes
 * Game called "predict the error"?
 * Game called "fix the error"?
 * File system waypoints
