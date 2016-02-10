@@ -1,7 +1,5 @@
-* Move the rest of this somewhere
-  Topics: Namespacing, multiple files in Ruby (load path),
-  naming conventions across files and classes
 * Next vim keybindings
+  * G/gg
   * w/W
   * b/B
   * f
@@ -29,6 +27,51 @@
   * Make sure all links work in the markdown file
   * Label / Upload videos
   * Add a place to track student info
+
+* Todd Connor reflections - what would be interesting to learn?
+  * Javi
+    * More dedication to learning this craft
+    * Financial industry, a startup working with underrepresented communities
+    * Mobile (Swift / Java)
+    * Trading algorithms
+    * Automation
+  * Vince
+    * Careers / Internships at Oculus
+    * C / C++ / Java
+    * VR
+    * 3D rendering
+    * Algorithms
+  * Greg
+    * Eliminate tedium (eg Kcura)
+    * Machine learning
+    * Automating processes
+  * Sean
+    * Feel confident / competent
+    * Chi city
+    * Health care and reducing costs for people
+    * eg Online eye exams
+  * Matthew
+    * Building a network
+    * Financial markets
+    * Trading / algorithms
+    * Math languages
+    * Security (pentesting or something)
+  * Megan
+    * Prospects
+    * Eff finance
+    * Anthropological genetic analysis
+    * Data / Algorithms
+  * James
+    * Food
+    * http://www.getpared.com
+    * Something that does Food delivery
+  * Derreck
+    * Project Portfolio
+    * Small company in Chi or nearby
+    * Game
+* Practice Perfect 10 min synopsis (randomly select a human)
+  `%w[Dongmin vince greg james megan derreck javi].sample`
+
 
 Later
 
