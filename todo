@@ -1,14 +1,29 @@
+* Assignment possibilities
+  * Write a sorting algorithm (we'll figure out how to visualize it!)
+    * later we can talk about how AI works
+  * Binary search trees!
+  * Draw in JS
+    * Later: L-systems
+  * Parse some data from an API (uhm, one of my moleskines has a lot of reasonable ideas)
+  * Play with music?
+  * Build a programming language?
+    * Or... a Ruby interpreter?
+  * More drawing?
+  * Make a game?
+  * Blocks... wtf are those and how do they work?
+* synseer
+  * def w/o parens
 * Next vim keybindings
-  * G/gg
-  * w/W
-  * b/B
-  * f
-  * t
   * vertical editing
-  * visual highlight mode
+  * Find/highlight current word / turn highlighting off
+  * Autocomplete
   * add a theme
-* Add to itinerary:
-  * Individualized Nightmare
+  * Scroll up / down
+  * Combining deletion
+  * Combining copying
+  * Combining insertion
+  * Future:
+    * change surrounding whatevz
 * Synseer
   * Interface:
     * Reset correct / incorrect on each entry?
@@ -78,9 +93,6 @@ Later
 * Additional unix programs:
   * env
   * curl
-  * [pwd](https://github.com/turingschool/waypoints/blob/master/waypoints/pwd.md),
-    including the entire process of pretending to not know what your'e looking for in pry
-    (mimic the process of trying to solve it from no knowledge),
   * which
   * ?? minutes
 * Game called "predict the error"?
@@ -89,9 +101,6 @@ Later
 * Build a programming language?
 * Make sure all lessons are in the curriculum
 * Ryan
-* Has rod gotten back to Yumin and friend?
-* SiB working on all computers
-* Waypoint to run the SiB commands.
 * Stacks
   * Stacks with hashes
   * Stacks with objects
@@ -99,10 +108,3 @@ Later
   * Queues with hashes
   * Queues with objects
 * Highlighting on all computers
-* Events
-  * Send Colin a description
-  * http://www.meetup.com/ChicagoRuby/events/224923424/
-  * Object Model
-    http://www.meetup.com/8th-light-university/events/228599637/
-    lexical scope?
-    environment?
