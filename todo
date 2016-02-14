@@ -1,35 +1,42 @@
 * Assignment possibilities
+  * Choose OO problems
+    * explain (ctrl-F and mrspec), skip tests that aren't filled in
+    * Mythical creatures [challenges](https://github.com/turingschool/ruby-exercises)
+  * Go over tonight's homework
+    * Choose someone's aggregated list and do quizzes on each topic
   * Write a sorting algorithm (we'll figure out how to visualize it!)
     * later we can talk about how AI works
   * Binary search trees!
   * Draw in JS
     * Later: L-systems
   * Parse some data from an API (uhm, one of my moleskines has a lot of reasonable ideas)
-  * Play with music?
+  * Play with music? (Sonic Pi)
   * Build a programming language?
     * Or... a Ruby interpreter?
-  * More drawing?
-  * Make a game?
+  * Make a game? (Gosu)
   * Blocks... wtf are those and how do they work?
-* synseer
-  * def w/o parens
+  * Stacks and queues
 * Next vim keybindings
-  * vertical editing
-  * Find/highlight current word / turn highlighting off
-  * Autocomplete
   * add a theme
-  * Scroll up / down
-  * Combining deletion
+  * Combining deletion (G, gg, tx, etc)
   * Combining copying
-  * Combining insertion
   * Future:
     * change surrounding whatevz
+    * vertical editing
+    * Find/highlight current word / turn highlighting off
+    * Autocomplete
+    * Scroll up / down
 * Synseer
   * Interface:
     * Reset correct / incorrect on each entry?
   * Syntax
     * Hash literals `{"a" => 1, b: 2, :c => 3, 4 => 5}`
     * As args `a b: 1`
+    * def w/o parens
+    * singleton methods
+    * class A::B
+    * arg syntaxes
+    * block literals
 * Material
   * Choose OO problems
   * Object Model games
