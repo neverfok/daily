@@ -1,6 +1,5 @@
 * File system?
 * Can you think of a callstack waypoint? (self, method lookup, local variables?)
-* pick a piece of code for their homework
 
 * Next vim keybindings
   * Combining deletion (G, gg, tx, etc)
