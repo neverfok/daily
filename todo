@@ -1,23 +1,10 @@
-* Assignment possibilities
-  * Choose OO problems
-    * explain (ctrl-F and mrspec), skip tests that aren't filled in
-    * Mythical creatures [challenges](https://github.com/turingschool/ruby-exercises)
-  * Go over tonight's homework
-    * Choose someone's aggregated list and do quizzes on each topic
-  * Write a sorting algorithm (we'll figure out how to visualize it!)
-    * later we can talk about how AI works
-  * Binary search trees!
-  * Draw in JS
-    * Later: L-systems
-  * Parse some data from an API (uhm, one of my moleskines has a lot of reasonable ideas)
-  * Play with music? (Sonic Pi)
-  * Build a programming language?
-    * Or... a Ruby interpreter?
-  * Make a game? (Gosu)
-  * Blocks... wtf are those and how do they work?
-  * Stacks and queues
+* File system?
+* Can you think of a callstack waypoint? (self, method lookup, local variables?)
+* pick a piece of code for their homework
+
 * Next vim keybindings
-  * add a theme
+  * Combining deletion (G, gg, tx, etc)
+  * Combining copying
   * Combining deletion (G, gg, tx, etc)
   * Combining copying
   * Future:
@@ -26,17 +13,6 @@
     * Find/highlight current word / turn highlighting off
     * Autocomplete
     * Scroll up / down
-* Synseer
-  * Interface:
-    * Reset correct / incorrect on each entry?
-  * Syntax
-    * Hash literals `{"a" => 1, b: 2, :c => 3, 4 => 5}`
-    * As args `a b: 1`
-    * def w/o parens
-    * singleton methods
-    * class A::B
-    * arg syntaxes
-    * block literals
 * Material
   * Choose OO problems
   * Object Model games
@@ -91,8 +67,6 @@
     * Project Portfolio
     * Small company in Chi or nearby
     * Game
-* Practice Perfect 10 min synopsis (randomly select a human)
-  `%w[Dongmin vince greg james megan derreck javi].sample`
 
 
 Later
@@ -105,13 +79,29 @@ Later
 * Game called "predict the error"?
 * Game called "fix the error"?
 * File system waypoints
-* Build a programming language?
 * Make sure all lessons are in the curriculum
-* Ryan
 * Stacks
   * Stacks with hashes
   * Stacks with objects
 * Queues
   * Queues with hashes
   * Queues with objects
-* Highlighting on all computers
+* Assignment possibilities
+  * Choose OO problems
+    * explain (ctrl-F and mrspec), skip tests that aren't filled in
+    * Mythical creatures [challenges](https://github.com/turingschool/ruby-exercises)
+  * Go over tonight's homework
+    * Choose someone's aggregated list and do quizzes on each topic
+  * Write a sorting algorithm (we'll figure out how to visualize it!)
+    * later we can talk about how AI works
+  * Binary search trees!
+  * Draw in JS
+    * Later: L-systems
+  * Parse some data from an API (uhm, one of my moleskines has a lot of reasonable ideas)
+  * Play with music? (Sonic Pi)
+  * Build a programming language?
+    * Or... a Ruby interpreter?
+  * Make a game? (Gosu)
+  * Blocks... wtf are those and how do they work?
+  * Stacks and queues
+  * Write cln?
