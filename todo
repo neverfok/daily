@@ -1,17 +1,18 @@
 * File system?
 * Can you think of a callstack waypoint? (self, method lookup, local variables?)
+* OO http://c2.com/cgi/wiki?AlanKayOnMessaging
 
 * Next vim keybindings
-  * Combining deletion (G, gg, tx, etc)
-  * Combining copying
-  * Combining deletion (G, gg, tx, etc)
-  * Combining copying
-  * Future:
-    * change surrounding whatevz
-    * vertical editing
-    * Find/highlight current word / turn highlighting off
-    * Autocomplete
-    * Scroll up / down
+  ```ruby
+  [ 'Combining deletion (G, gg, tx, etc)',
+    'Combining copying  (G, gg, tx, etc)',
+    'Fix my terrible indentation, pls, vim',
+    'change inner/surrounding whatevz',
+    'vertical editing',
+    'Autocomplete',
+    'Scroll up / down',
+  ].sample
+  ```
 * Material
   * Choose OO problems
   * Object Model games
