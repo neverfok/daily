@@ -11,6 +11,7 @@
     'vertical editing',
     'Autocomplete',
     'Scroll up / down',
+    'substitute',
   ].sample
   ```
 * Material
