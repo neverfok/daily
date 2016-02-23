@@ -11,13 +11,12 @@
 
 * Next vim keybindings
   ```ruby
-  [ 'Combining deletion (G, gg, tx, etc)',
-    'Combining copying  (G, gg, tx, etc)',
-    'Fix my terrible indentation, pls, vim',
+  [ 'Fix my terrible indentation, pls, vim',
     'change inner/surrounding whatevz',
     'vertical editing',
     'Scroll up / down',
     'substitute',
+    'realign',
   ].sample
   ```
 * Material
