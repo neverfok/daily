@@ -1,8 +1,9 @@
-* build a gem
-* build array
-* chisel
-
-
+* Build array
+* Chisel
+* Describe things:
+  * Javi's vim game
+  * Array class
+  * ??
 
 * File system?
 * Can you think of a callstack waypoint? (self, method lookup, local variables?)
@@ -15,7 +16,6 @@
     'Fix my terrible indentation, pls, vim',
     'change inner/surrounding whatevz',
     'vertical editing',
-    'Autocomplete',
     'Scroll up / down',
     'substitute',
   ].sample
