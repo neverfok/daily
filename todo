@@ -68,7 +68,6 @@
 * Next vim keybindings
   ```ruby
   [ 'Fix my terrible indentation, pls, vim',
-    'change inner/surrounding whatevz',
     'vertical editing',
     'Scroll up / down',
     'substitute',
