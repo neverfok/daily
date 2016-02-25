@@ -1,14 +1,70 @@
+* Challenges
+  * Regex quiz
+    * find all words
+    * find all words that begin with capital letters
+    * find the first word of each line
+    * find the last word of each line
+    * find all strings of numbers
+    * phone number
+    * email
+    * every two characters
+    * file extensions
+    * file basenames
+    * class definitions in a file
+    * installed gems and their most recent version (gem list)
+    * links in the dailies
+    * keys and values from an http request
+    * symbols in a ruby program
+    * the method in a linked list
+    * the status code in a linked list
+  * Linked list challenges
+    * Find the first item in a linked list (of size 0, 1, 2, 3)
+    * Find the last item in a linked list (of size 0, 1, 2, 3)
+    * Find the largest item in a linked list (of size 0, 1, 2, 3)
+    * Find the smallest item in a linked list (of size 0, 1, 2, 3)
+    * Find the length of a linked list
+    * Remove an item from a linked list
+    * Add an item to a linked list
+    * Given a linked list of numbers, return a linked list of just the even numbers
+    * Given a linked list of numbers, return a linked list of just the odd numbers
+    * Given a linked list of numbers, return a linked list of just the numbers that pass a block I give you
+    * Given a linked list of strings, return a linked list of the strings with more than 5 chars
+    * Given a linked list of strings, return a linked list of the strings with more than 10 chars
+    * Given a linked list of ints, return a linked list of the integers that are divisible by 3
+    * Given a linked list of strings, return the count of how many end in an "s"
+    * Given a linked list of strings, return a linked list of the ones that look like phone numbers (three digits, a dash, four digits)
+    * In a linked list of medusas, find the medusa with the most statues
+    * In a linked list of medusas, find all the medusas with more than 3 statues
+    * In a linked list of medusas, Find all the statues in a linked list of medusas
+    * In a linked list of medusas, find the medusa with the statue who has the the largest name
+    * In a linked list of medusas, find all the statues whose last name is Smith
+    * In a linked list of medusas, find all the statues in a linked list of medusas, but don't include statues that have the same name
+    * In a linked list of medusas, find all the statues whose last name begins with an S
+    * Find the first item from each list of a linked list of linked lists
+    * Find the last item from each list of a linked list of linked lists
+    * Given a linked list of strings, return a linked list of ints (ie map to_i)
+    * Given a linked list of ints, return a linked list of strings (ie map to_s)
+    * Flatten a linked list of linked lists
+    * In a linked list of friend pairs, find the person with the most friends
+    * Map a linked list of lists to the length of each list (ie map(&:count))
+    * Given a linked list of linked lists of strings, return the list that has the largest number of strings that contain a smiley face
+    * In a linked list of booleans, return the number they would represent if they represented binary 1s/0s
+    * In a linked list of filenames, return the name of the file that has the most lines
+    * Given a linked list of numbers, remove and return the element that has the fewest items
+    * Do the above until the list is empty
+    * Do the above, but return the result in a linked list (You just wrote a selection sort ;)
+    * Given a linked list of medusas whose statues are trick or treaters with bags of candy, return how much candy each medusa has
+    * Given a linked list of gems, return the one that is at the highest version
+    * Obj model
+      * Given a binding, return its self
+  * Future?
+    * Find all test classes in a Ruby program
+
 * Build array
 * Chisel
-* Describe things:
-  * Javi's vim game
-  * Array class
-  * ??
-
 * File system?
 * Can you think of a callstack waypoint? (self, method lookup, local variables?)
 * OO http://c2.com/cgi/wiki?AlanKayOnMessaging
-
 * Next vim keybindings
   ```ruby
   [ 'Fix my terrible indentation, pls, vim',
