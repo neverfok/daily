@@ -5,8 +5,10 @@
 // $ npm install uglify-js -g
 //
 // Install in chrome by right-clicking the url bar ("omnibox") and then choosing "Edit search engines"
+
+var msInDay    = 1000*60*60*24;
 var dayAbbrs   = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
-var weekStarts = [
+var weekStarts = [ // $ find . -type f -name '*-mon.md' | sed  -e 's|\./|  ["|'  -e 's|/|", "|'  -e 's|-mon\.md|"],|'
   ["2016-02-01", "week-01"],
   ["2016-02-08", "week-02"],
   ["2016-02-15", "week-03"],
@@ -25,22 +27,32 @@ var weekStarts = [
   ["2016-05-16", "week-16"],
 ];
 
-var today    = new Date();
-var year     = today.getUTCFullYear().toString();
-var month    = (1+today.getUTCMonth()).toString();
-if(month.length == 1) month = '0'+month;
-var day      = today.getUTCDate().toString();
-var dayAbbr  = dayAbbrs[today.getUTCDay()];
+
+// Default to today, or Monday, if its a weekend
+var daily = new Date();
+if(daily.getDay() === 0) daily = new Date(daily-0 + 1*msInDay);
+if(daily.getDay() === 6) daily = new Date(daily-0 + 2*msInDay);
+
+// Format the date for the file name
+var year    = daily.getFullYear().toString();
+var month   = (1+daily.getMonth()).toString();
+var day     = daily.getDate().toString();
+var dayAbbr = dayAbbrs[daily.getDay()];
+if(1 === month.length) month = '0'+month;
+if(1 === day.length  ) day   = '0'+day;
 var filename = year+'-'+month+'-'+day+'-'+dayAbbr+'.md';
 
+// Figure out which week the day falls within
 var weekIndex = 0;
 weekStarts.forEach(function(pair, index) {
   if(weekIndex !== 0) return;
   var weekStart = new Date(Date.parse(pair[0]));
-  if(today < weekStart) weekIndex = index-1;
+  if(daily < weekStart) weekIndex = index-1;
 });
-
 var week = weekStarts[weekIndex][1];
-var url  = 'https://github.com/CodePlatoon/daily/blob/master/'+week+'/'+filename;
 
+// Build the URL
+var url = 'https://github.com/CodePlatoon/daily/blob/master/'+week+'/'+filename;
+
+// Now go to that URL
 window.location = url;
