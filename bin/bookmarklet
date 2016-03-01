@@ -4,12 +4,12 @@ require 'open3'
 
 uglify_command = [
   'uglifyjs',
-  'bookmarklet.js',
   '--wrap',
   '--screw-ie8',
   '--preamble', 'javascript:',
   '--mangle'
 ]
+
 
 # cd to the parent directory, where the bookmarklet should be
 Dir.chdir File.expand_path('../..', __FILE__)
@@ -22,8 +22,13 @@ if !stderr.empty? || !status.success?
   exit 1
 end
 
+# the js to transform
+stdin_data =
+  File.read('lib/daily_path.js').gsub(/^ *module.exports *=.*?(;|$)/, '') +
+  "window.location = 'https://github.com/CodePlatoon/daily/blob/master/'+dailyPath(new Date());"
+
 # transform the javascript
-stdout, stderr, status = Open3.capture3(*uglify_command)
+stdout, stderr, status = Open3.capture3(*uglify_command, stdin_data: stdin_data)
 if !stderr.empty?
   $stderr.puts "Uglify blew up with this message:"
   $stderr.puts stderr
@@ -36,4 +41,10 @@ if !status.success?
   exit 1
 end
 
+
+def self.green(text)
+  "\e[32m#{text}\e[39m"
+end
+
+$stderr.puts green "Install in chrome by right-clicking the url bar (\"omnibox\") and then choosing \"Edit search engines\""
 $stdout.puts stdout.delete("\n")

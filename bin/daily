@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+require 'open3'
+
+Dir.chdir File.expand_path('../..', __FILE__)
+
+stdout, stderr, status = Open3.capture3('node', '-e', 'console.log(require("./lib/daily_path")());')
+if !stderr.empty? || !status.success?
+  puts stderr
+  exit 1
+end
+
+exec 'vim', stdout.chomp
