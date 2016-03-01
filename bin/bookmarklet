@@ -1,0 +1,39 @@
+#!/usr/bin/env ruby
+
+require 'open3'
+
+uglify_command = [
+  'uglifyjs',
+  'bookmarklet.js',
+  '--wrap',
+  '--screw-ie8',
+  '--preamble', 'javascript:',
+  '--mangle'
+]
+
+# cd to the parent directory, where the bookmarklet should be
+Dir.chdir File.expand_path('../..', __FILE__)
+
+# make sure uglify exists
+stdout, stderr, status = Open3.capture3('which', 'uglifyjs')
+if !stderr.empty? || !status.success?
+  $stderr.puts "You need to install uglify to transform the javascript for the bookmarklet try:"
+  $stderr.puts "$ npm install uglify-js -g"
+  exit 1
+end
+
+# transform the javascript
+stdout, stderr, status = Open3.capture3(*uglify_command)
+if !stderr.empty?
+  $stderr.puts "Uglify blew up with this message:"
+  $stderr.puts stderr
+  exit 1
+end
+if !status.success?
+  $stderr.puts "Uglify blew up for unknown reasons :("
+  $stderr.puts "It was called like this:"
+  $stderr.puts uglify_command.inspect
+  exit 1
+end
+
+$stdout.puts stdout.delete("\n")
