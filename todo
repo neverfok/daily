@@ -1,3 +1,27 @@
+* Project assessments, including ways to improve (gain more points)
+* Notes for those who come after us
+* Blocks / block challenges
+* Modules? / Module Challenges?
+* Unlock: make your own Enumerable (called iterable ;)
+* Play with http stuffs if you're going tonight ([waypoint](https://github.com/turingschool/waypoints/blob/master/waypoints/http.md))
+
+* Project time
+* Implement a comparable object
+* Add / commit dotfiles and put them on our github
+* Synthesis (all the shit we've covered so far)
+* Some Refactoring?
+* Yoga
+
+
+* Re-implement `each` in your linked list.
+* Implement `each_node` in the linked list challenges
+* Refactor as many linked list challenges to use these as you can
+
+
+
+
+
+
 * Challenges
   * Regex quiz
     * find all words
